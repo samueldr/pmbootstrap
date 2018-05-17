@@ -69,7 +69,7 @@ def partition(args, size_boot):
                  ", root: the rest)")
 
     filesystem = args.deviceinfo["boot_filesystem"] or "ext2"
-    
+
     # Actual partitioning with 'parted'. Using check=False, because parted
     # sometimes "fails to inform the kernel". In case it really failed with
     # partitioning, the follow-up mounting/formatting will not work, so it
