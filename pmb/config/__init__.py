@@ -237,6 +237,7 @@ deviceinfo_attributes = [
 
     # bootloader
     "flash_method",
+    "boot_filesystem",
 
     # flash
     "flash_heimdall_partition_kernel",
