@@ -289,7 +289,7 @@ install_device_packages = [
 ]
 
 # Groups for the default user
-install_user_groups = ["wheel", "video", "audio"]
+install_user_groups = ["wheel", "video", "audio", "input"]
 
 
 #
