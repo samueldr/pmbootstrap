@@ -25,7 +25,7 @@ package() {
 }
 
 nonfree_firmware() {
-        pkgdesc="Firmwares"
+        pkgdesc="All non-free firmwares from a device image. Includes firmware for wifi, modem and camera among others."
         depends="firmware-asus-z00t"
         mkdir "$subpkgdir"
 }
